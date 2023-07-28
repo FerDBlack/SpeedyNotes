@@ -1,0 +1,12 @@
+<div
+  class="movable"
+  [style.left.px]="left"
+  [style.top.px]="top"
+  (mousedown)="startDragging($event)"
+  (document:mousemove)="onMouseMove($event)"
+  (document:mouseup)="stopDragging()">
+  <p>{{title}}</p>
+  <p>{{subTitle}}</p>
+  <p>{{content}}</p>
+  <p>{{metaData}}</p>
+</div>
