@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+import {Note} from "./model/note";
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'SpeedyNotesWebUI';
+
+  notes:Note[]  = [
+    {title:"hoal",subTitle:"",content:""},
+    {title:"hoal",subTitle:"",content:""}
+  ]
+
 }
