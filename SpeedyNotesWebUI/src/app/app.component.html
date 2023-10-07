@@ -1,8 +1,2 @@
-<div id="notes" *ngFor="let note of notes">
-  <app-note
-    [title]="note.title"
-    [subTitle]="note.subTitle"
-    [content]="note.content"
-    [metaData]="note.metaData || '' "
-  ></app-note>
-</div>
+<app-nav></app-nav>
+<router-outlet></router-outlet>

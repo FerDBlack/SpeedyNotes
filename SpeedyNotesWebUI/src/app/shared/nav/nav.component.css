@@ -1,0 +1,25 @@
+nav  {
+    width: 100%;
+    padding-top: 2%;
+  }
+
+nav img {
+    width: 100px;
+    height: 100px;
+    margin-left: 5%;    
+  }
+
+nav ul {
+    display: inline-block;
+    width: 50%;
+    margin-left: 7%;
+  }
+
+nav ul li {
+    display: inline-block;
+    margin-left: 5%;   
+}
+
+nav a{
+    text-decoration: none;
+}
