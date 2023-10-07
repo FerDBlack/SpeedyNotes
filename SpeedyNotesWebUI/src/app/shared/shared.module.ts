@@ -1,7 +1,7 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NavComponent } from './nav/nav.component';
+import { NgModule } from '@angular/core';
 import { AppRoutingModule } from '../app-routing.module';
+import { NavComponent } from './nav/nav.component';
 
 
 
@@ -10,11 +10,12 @@ import { AppRoutingModule } from '../app-routing.module';
     NavComponent
   ],
   exports: [
-    NavComponent
+    NavComponent,
+    
   ],
   imports: [
     CommonModule,
-    AppRoutingModule
-  ]
+    AppRoutingModule,
+   ]
 })
 export class SharedModule { }

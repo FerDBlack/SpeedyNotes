@@ -1,15 +1,17 @@
 :root {
   --font-family: 'Inter', sans-serif;
   --background-color-dark: #214E67;
-  --background-color-light: #d3ecf7;
+  --background-color-light: #74C5E4;
 }
 
 body,html {
   height: 100%;
+  width: 100%;
   margin: 0;
-  overflow: hidden;
   font-family: var(--font-family);
-  background: linear-gradient( var(--background-color-light),var(--background-color-dark));
+  background: linear-gradient(180deg, var(--background-color-light),var(--background-color-dark)) fixed;
 }
 
  
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
