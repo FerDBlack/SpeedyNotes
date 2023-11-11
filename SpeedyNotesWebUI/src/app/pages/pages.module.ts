@@ -1,8 +1,9 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HomeComponent } from './home/home.component';
-import { FolderManagerComponent } from './folder-manager/folder-manager.component';
+import { Component, NgModule } from '@angular/core';
 import { AngularMaterialModule } from '../shared/angular-material/angular-material.module';
+import { FolderManagerComponent } from './folder-manager/folder-manager.component';
+import { HomeComponent } from './home/home.component';
+import { ComponentsModule } from '../components/components.module';
  
 
 
@@ -19,6 +20,7 @@ import { AngularMaterialModule } from '../shared/angular-material/angular-materi
   ],
   imports: [
     CommonModule,
+    ComponentsModule,
     AngularMaterialModule,
  
   ]
