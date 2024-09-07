@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpeedyNote.Back")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31e2fa202843a614e7585e914721856405ac86b6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e058fbb9b09bf2d2ee995e80f3c75046d39ad2f")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpeedyNote.Back")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpeedyNote.Back")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
