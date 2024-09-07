@@ -1,6 +1,5 @@
 @SpeedyNote.Back_HostAddress = http://localhost:5295
 
-GET {{SpeedyNote.Back_HostAddress}}/weatherforecast/
-Accept: application/json
+
 
 ###
